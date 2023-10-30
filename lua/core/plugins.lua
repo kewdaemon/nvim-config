@@ -22,5 +22,17 @@ require("lazy").setup({
     { 'hrsh7th/cmp-path' },
     { 'hrsh7th/cmp-cmdline' },
     { 'hrsh7th/nvim-cmp' },
-    { 'hrsh7th/vim-vsnip' }
+    { 'hrsh7th/vim-vsnip' },
+    { 'mfussenegger/nvim-lint' },
+    { 'mattn/emmet-vim' },
+    {
+        "Jezda1337/nvim-html-css",
+        dependencies = {
+          "nvim-treesitter/nvim-treesitter",
+          "nvim-lua/plenary.nvim",
+        },
+      },
+      { 'lervag/vimtex',
+         opt = true,
+         ft = 'tex' },
 })
